@@ -1,0 +1,52 @@
+body {
+  font: helvetica;
+  margin: 0
+  padding 0;
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #0044cc;
+  color: white;
+  padding: 20;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex
+  gap: 10px;
+}
+
+main {
+  paddding: 30px;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 15;
+  padding: 10;
+  width: 100%
+}
+
+button {
+  background-color: green
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5
+}
+
+.task-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  gap: 20px
+}
+
+.task-card {
+  background: #fff;
+  border: 1px solid #ccc
+  padding: 15px;
+  box-shadow: 0 0 8px rgba(0,0,0,.1)
+  border-radius: 4px
+}
