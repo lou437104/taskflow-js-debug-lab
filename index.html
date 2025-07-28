@@ -21,21 +21,24 @@
       <section id="createTask">
         <h2>Create New Task</h2>
         <form id="taskForm">
-   <label>Title 
-            <input type="text" id="title" placeholder="Task title">
-          </label>
-          <label for="desc">Description
-            <textarea id="desc" placeholder="Task description"></textarea>
-          </label>
-          <label for="dueDate">Due Date:
-            <input type="date" id="dueDate" required>
-          </label>
-          <button type="submit">Add Task</button>
+          <fieldset>
+            <legend>Create a New Task</legend>
+            <label for="title">Title
+              <input type="text" id="title" placeholder="Task title">
+            </label>
+            <label for="desc">Description
+              <textarea id="desc" placeholder="Task description"></textarea>
+            </label>
+            <label for="dueDate">Due Date:
+              <input type="date" id="dueDate" required>
+            </label>
+            <button type="submit">Add Task</button>
+          </fieldset>
         </form>
       </section>
 
       <section id="taskList">
-        <h2>Your Tasks</h2>
+        <h2>Your Tasks</h3>
         <div class="task-container">
           <!-- Tasks render here -->
         </div>
